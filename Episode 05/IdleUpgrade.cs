@@ -1,26 +1,26 @@
 using UnityEngine;
 using BreakInfinity;
 
-public class ClickUpgrade : Upgrade
+public class IdleUpgrade : Upgrade
 {
-    public BigDouble clickPowerIncrease;
-    public ClickManager clickManager;
+    public BigDouble idlePowerIncrease;
+    public IdleManager idleManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public override void Start()
     {
         base.Start();
 
-        if (clickManager == null)
+        if (idleManager == null)
         {
-            clickManager = FindAnyObjectByType<ClickManager>();
+            idleManager = FindAnyObjectByType<IdleManager>();
         }
     }
 
-    // Increases click power
+    // Increases idle power
     public void BuyUpgrade()
     {
-        clickManager.moneyPerClick += clickPowerIncrease;
+        idleManager.moneyPerSecond += idlePowerIncrease;
         HandlePurchase();
     }
 }
