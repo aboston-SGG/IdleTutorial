@@ -38,6 +38,7 @@ public class Upgrade : MonoBehaviour
         GetComponent<Button>().interactable = currencyManager.CanAfford(upgradeCost);
     }
 
+    // Updates the UI elements attached to our upgrade
     public void UpdateUI()
     {
         nameText.text = upgradeName;
@@ -45,6 +46,7 @@ public class Upgrade : MonoBehaviour
         costText.text = $"Cost: {CurrencyManager.SciNotToUSName(upgradeCost)}";
     }
 
+    // Logic for the currency side of purchasing an upgrade
     public void HandlePurchase()
     {
         currencyManager.SubtractMoney(upgradeCost);

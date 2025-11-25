@@ -1,4 +1,4 @@
-# Episode 3: Idle Income
+# Episode 4: Idle Income
 
 In this video we add the idle mechanic to our game.
 

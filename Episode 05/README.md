@@ -1,4 +1,4 @@
-# Episode 3: Idle Upgrade
+# Episode 5: Idle Upgrade
 
 In this video we add the ability to upgrade our idle power so we get more money per second.
 
