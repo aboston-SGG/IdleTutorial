@@ -1,4 +1,4 @@
-# Episode 7: Menu Management
+# Episode 8: Menu Management
 
 In this video we add some functions to better manage our menus.
 
