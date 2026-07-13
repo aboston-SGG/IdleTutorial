@@ -1,4 +1,4 @@
-# Episode 19: Converting Money to Health
+# Episode 20: Stages
 
 In this video we add stages for player progression and monster scaling.
 
