@@ -106,6 +106,7 @@ public class UIManager : MonoBehaviour
         return moneyPerSec * PrestigeManager.instance.GetPrestigeMultiplier();
     }
 
+    // Assign the player's class and update relevant stats
     public void AssignPlayerClass(BaseClass classToAssign)
     {
         DataPersist.instance.saveData.playerClass = classToAssign;

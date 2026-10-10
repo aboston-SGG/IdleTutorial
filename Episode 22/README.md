@@ -1,6 +1,6 @@
-# Episode 21: Prestige and Monsters
+# Episode 22: Class Setup
 
-In this video we make our monsters and stages work with our prestige system.
+In this video we lay the foundations for our class system and prepare for the mess of adding our first class.
 
 ## New Scripts
 - BaseClass.cs
